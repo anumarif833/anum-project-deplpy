@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
 import { useState, useEffect } from "react";
 
 const images = [
-	"https://provenreality.com/wp-content/uploads/2024/01/Augmented-Reality-Fashion-Ecommerce-A-Match-Made-in-Heaven.jpg",
-	"https://storage.googleapis.com/mageplaza.com/media/2024/01/09104808/90.jpg",
-	"https://media.istockphoto.com/id/1484799147/photo/hanging-clothes-on-sale-for-teens-and-kids-in-the-mall.jpg?s=612x612&w=0&k=20&c=ITHnJ3eyP3jck8fQCBks2KJtuTFi7-46FNdLll5V58g=",
+	"https://bluefery.com/cdn/shop/files/1_ab3d7043-d26a-44e1-a18e-081b0304653d.png?v=1734670802&width=1370",
+    "https://akhrotclothing.com/cdn/shop/files/season_end_8.png?v=1727089991&width=1370",
+	"https://pk.sapphireonline.pk/on/demandware.static/-/Sites-Sapphire-Library/default/dwe09a4073/images/Editorials/Hania-Editorial-Main-tile.jpg",
+	"https://pk.sapphireonline.pk/on/demandware.static/-/Sites-Sapphire-Library/default/dw5dc71dcb/images/Editorials/scents-of-love-tiles.jpg",
+	"https://cdn.shopify.com/s/files/1/1692/9471/files/HP-GIF-BANNER-DESKTOP-22222_d02c3fc4-486a-4cfa-a673-7dce33da81ab.gif?v=1745825517&width=1280"
 ];
+
 
 const Hero = () => {
 	const [currentIndex, setCurrentIndex] = useState(0);
